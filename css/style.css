@@ -1,0 +1,8 @@
+@font-face {
+    font-family: LibreFranklin;
+    src: url(../fonts/LibreFrankling/LibreFranklin-VariableFont_wght.ttf);
+}
+
+body{
+    font-family: LibreFranklin;
+}
