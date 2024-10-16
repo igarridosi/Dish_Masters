@@ -12,27 +12,26 @@
 </head>
 <body>
 
-    <div class="container-fluid">
-        <div class="row flex-nowrap">
+    <div class="container-fluid" id="container">
+        <div class="row flex-wrap">
             <!-- Hamburguesa para vista móvil -->
             <div class="d-md-none p-3 text-white d-flex flex-row justify-content-center" id="movile-view-menu">
-                <button class="btn btn-outline-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMenu" aria-controls="offcanvasMenu">
+                <button class="btn btn-outline-light bg-white text-dark w-25" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMenu" aria-controls="offcanvasMenu">
                     <b>☰</b><!-- Ícono de hamburguesa -->
                 </button>
             </div>
 
             <!-- Sidebar (Offcanvas para móviles) -->
-            <div class="offcanvas offcanvas-start bg-dark text-white" tabindex="-1" id="offcanvasMenu" aria-labelledby="offcanvasMenuLabel">
+            <div class="offcanvas offcanvas-start bg-white text-white w-50" tabindex="-1" id="offcanvasMenu" aria-labelledby="offcanvasMenuLabel">
                 <div class="offcanvas-header">
-                    <h5 class="offcanvas-title" id="offcanvasMenuLabel">Menu</h5>
-                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    <button type="button" class="btn-close btn-close-dark" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
                 
                 <div class="offcanvas-body">
                     <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 min-vh-100" id="sidebar-menu">
                         <!-- Logo Section -->
                         <a href="/" class="d-flex align-items-center pb-3 mb-md-0 me-md-auto text-white text-decoration-none">
-                            <img src="img/DishMasterLogo_2_-removebg-preview.png" alt="DishMaster Logo" class="img-fluid mb-3" style="max-width: 150px;">
+                            <img src="img/DishMasterLogo_2_-removebg-preview.png" alt="DishMaster Logo" class="img-fluid mb-3" style="max-width: 100px;">
                         </a>
 
                         <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
@@ -164,10 +163,10 @@
                     </ul>
                 </div>
             </div>
-
-            <div class="col py-3">
-                Content area...
+            <div class="col py-3 ">
+                <p class="h1">DISH MASTERS</p>
             </div>
+
         </div>
     </div>
 

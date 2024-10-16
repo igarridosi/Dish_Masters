@@ -6,8 +6,6 @@
 body{
     font-family: LibreFranklin;
     background: rgb(255,255,255);
-    background: linear-gradient(153deg, rgba(255,255,255,1) 40%, rgba(255,189,89,1) 75%); 
-    background-repeat: no-repeat;
 }
 
 ::after,
@@ -32,6 +30,13 @@ h1 {
 
 body {
     font-family: 'Poppins', sans-serif;
+}
+
+#container{
+    background-color: #ffbd59;
+    background: linear-gradient(153deg, rgba(255,255,255,1) 40%, rgba(255,189,89,1) 75%); 
+    background-repeat: no-repeat;
+    min-height: 100vh;
 }
 
 .wrapper {
@@ -74,5 +79,6 @@ body {
 
 /* MOBILE VIEW*/
 #movile-view-menu{
-    background-color: #ffbd59;
+    background: rgb(255,255,255);
+    background: linear-gradient(153deg, rgba(255,255,255,1) 0%, rgba(255,189,89,1) 90%); 
 }
