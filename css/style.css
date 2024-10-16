@@ -3,9 +3,13 @@
     src: url(../fonts/LibreFrankling/LibreFranklin-VariableFont_wght.ttf);
 }
 
+@font-face {
+    font-family: Varela;
+    src: url(../fonts/Varela_Round/VarelaRound-Regular.ttf);
+}
+
 body{
-    font-family: LibreFranklin;
-    background: rgb(255,255,255);
+    font-family: Varela;
 }
 
 ::after,
@@ -13,6 +17,10 @@ body{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+#container{
+    min-height: 100vh;
 }
 
 a {
@@ -26,17 +34,6 @@ li {
 h1 {
     font-weight: 600;
     font-size: 1.5rem;
-}
-
-body {
-    font-family: 'Poppins', sans-serif;
-}
-
-#container{
-    background-color: #ffbd59;
-    background: linear-gradient(153deg, rgba(255,255,255,1) 40%, rgba(255,189,89,1) 75%); 
-    background-repeat: no-repeat;
-    min-height: 100vh;
 }
 
 .wrapper {
@@ -61,11 +58,6 @@ body {
     flex-direction: column;
 }
 
-#sidebar.expand {
-    width: 260px;
-    min-width: 260px;
-}
-
 #sidebar-menu{
     background-color: white;
 }
@@ -75,6 +67,31 @@ body {
 }
 #menu a{
     color: #222222;
+}
+
+#offcanvasMenu{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.45);
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+#canvasMenu{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.45);
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+#myCarousel{
+    background-color: #2b4db45b;
+}
+
+#myCarousel img{
+    display: flex;
+    justify-content: center;
+    width: 10vw;
+}
+
+#carrusel-images{
+    border-radius: 15px;
 }
 
 /* MOBILE VIEW*/
