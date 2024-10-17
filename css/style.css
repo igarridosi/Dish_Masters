@@ -40,12 +40,20 @@ h1 {
     display: flex;
 }
 
-.main {
+#main {
     min-height: 100vh;
     width: 100%;
     overflow: hidden;
     transition: all 0.35s ease-in-out;
     background-color: #fafbfe;
+}
+
+#main-heading h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ffbd59;
+    font-size: 3em;
+    transform: rotate(-2deg); /* Rotate slightly diagonal */
+    display: inline-block;
 }
 
 #sidebar {
@@ -81,17 +89,9 @@ h1 {
 }
 
 #myCarousel{
-    background-color: #2b4db45b;
-}
-
-#myCarousel img{
-    display: flex;
-    justify-content: center;
-    width: 10vw;
-}
-
-#carrusel-images{
-    border-radius: 15px;
+    background-color: #e0e0e05b;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
 }
 
 /* MOBILE VIEW*/
