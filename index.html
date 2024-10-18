@@ -22,7 +22,7 @@
             </div>
 
             <!-- Sidebar (Offcanvas para móviles) -->
-            <div class="offcanvas offcanvas-start bg-white text-white w-50" tabindex="-1" id="offcanvasMenu" aria-labelledby="offcanvasMenuLabel">
+            <div class="offcanvas offcanvas-start bg-white text-white w-75" tabindex="-1" id="offcanvasMenu" aria-labelledby="offcanvasMenuLabel">
                 <div class="offcanvas-header">
                     <button type="button" class="btn-close btn-close-dark" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
@@ -177,31 +177,86 @@
                 <div class="container mt-5 d-flex flex-column justify-content-center align-items-center w-100" id="main-heading">
                     <h1>Discover <i class="text-white">DISHES</i> all around the World</h1>
                 </div>
-                <div id="myCarousel" class="carousel slide w-25 mt-5" data-bs-ride="carousel">
+                <div id="cuisineCarousel" class="carousel slide w-50 mt-5" data-bs-ride="carousel">
                     <div class="carousel-inner">
-                        <div class="carousel-item active overlay">
-                            <img src="img/foods/shusi.jpg" class="d-block w-100" alt="Image 1">
-                            <p class="text-center">Japanese Food</p>
+                        <div class="carousel-item d-flex justify-content-around active">
+                            <div>
+                                <img src="img/foods/shusi.jpg" alt="American">
+                                <div class="carousel-caption d-flex justify-content-center">
+                                    <h5 style="background-color: rgba(0, 0, 0, 0.5);">American</h5>
+                                </div>
+                            </div>
+
+                            <div>
+                                <img src="img/foods/shusi.jpg" alt="American">
+                                <div class="carousel-caption d-flex justify-content-center">
+                                    <h5 style="background-color: rgba(0, 0, 0, 0.5);">American</h5>
+                                </div>
+                            </div>
+
+                            <div>
+                                <img src="img/foods/shusi.jpg" alt="American">
+                                <div class="carousel-caption d-flex justify-content-center">
+                                    <h5 style="background-color: rgba(0, 0, 0, 0.5);">American</h5>
+                                </div>
+                            </div>
                         </div>
-                        <div class="carousel-item">
-                            <img src="img/foods/shusi.jpg" class="d-block w-100" alt="Image 2">
-                            <p class="text-center">Beef broule</p>
+
+                        <div class="carousel-item d-flex justify-content-around">
+                            <div>
+                                <img src="img/foods/shusi.jpg" alt="American">
+                                <div class="carousel-caption d-flex justify-content-center">
+                                    <h5 style="background-color: rgba(0, 0, 0, 0.5);">American</h5>
+                                </div>
+                            </div>
+
+                            <div>
+                                <img src="img/foods/shusi.jpg" alt="American">
+                                <div class="carousel-caption d-flex justify-content-center">
+                                    <h5 style="background-color: rgba(0, 0, 0, 0.5);">American</h5>
+                                </div>
+                            </div>
+
+                            <div>
+                                <img src="img/foods/shusi.jpg" alt="American">
+                                <div class="carousel-caption d-flex justify-content-center">
+                                    <h5 style="background-color: rgba(0, 0, 0, 0.5);">American</h5>
+                                </div>
+                            </div>
                         </div>
-                        <div class="carousel-item">
-                            <img src="img/foods/shusi.jpg" class="d-block w-100" alt="Image 3">
-                            <p class="text-center">Beef broule</p>
+
+                        <div class="carousel-item d-flex justify-content-around">
+                            <div>
+                                <img src="img/foods/shusi.jpg" alt="American">
+                                <div class="carousel-caption d-flex justify-content-center">
+                                    <h5 style="background-color: rgba(0, 0, 0, 0.5);">American</h5>
+                                </div>
+                            </div>
+
+                            <div>
+                                <img src="img/foods/shusi.jpg" alt="American">
+                                <div class="carousel-caption d-flex justify-content-center">
+                                    <h5 style="background-color: rgba(0, 0, 0, 0.5);">American</h5>
+                                </div>
+                            </div>
+
+                            <div>
+                                <img src="img/foods/shusi.jpg" alt="American">
+                                <div class="carousel-caption d-flex justify-content-center">
+                                    <h5 style="background-color: rgba(0, 0, 0, 0.5);">American</h5>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                
-                    <a class="carousel-control-prev" href="#myCarousel" role="button" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#myCarousel" role="button" data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </a>
-                </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#cuisineCarousel" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon bg-black" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#cuisineCarousel" data-bs-slide="next">
+                      <span class="carousel-control-next-icon bg-black" aria-hidden="true"></span>
+                      <span class="visually-hidden bg-black">Next</span>
+                    </button>
+                  </div>
                     
             </div> 
 </body>
