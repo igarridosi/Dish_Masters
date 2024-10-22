@@ -97,7 +97,7 @@
 
             <!-- Sidebar para desktop -->
             <div class="col-auto col-md-3 col-xl-2 d-none d-md-block greyscale-2" id="canvasMenu">
-                <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100" id="sidebar-menu">
+                <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100 position-fixed" id="sidebar-menu">
                     <!-- Logo Section -->
                     <a href="/" class="d-flex align-items-center justify-content-center w-100 pb-3 mb-md-0 me-md-auto text-white text-decoration-none">
                         <img src="img/DishMasterLogo_2_-removebg-preview.png" alt="DishMaster Logo" class="img-fluid mb-3" style="max-width: 150px;">
@@ -246,130 +246,135 @@
                     </button>
                 </div>
 
-                <div class="row w-75">
+                <div class="row w-75 mt-5">
+                    <p class="h1">EXPLORE</p>
                     <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
                         <div id="overlay">
+                            <p>Global Flavors: Popular Dishes</p>
+                            <br>
+
                             <img
-                            src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
+                            src="img/foods/explore/burger.jpg"
                             class="w-100 shadow-1-strong rounded"
                             alt="Boat on Calm Water"
                             />
                         </div>
                         <br>
                         <div id="overlay">
+                            <p>Healthy & Delicious Recipes</p>
                             <img
-                            src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(18).webp"
+                            src="img/foods/explore/healthy.jpg"
                             class="w-100 shadow-1-strong rounded"
                             alt="Waves at Sea"
                             />
                         </div>
                     </div>
-
                     <div class="col-lg-4 mb-4 mb-lg-0" >
                         <div id="overlay">
-                            <p>Enjoy foof</p>
+                            <p>Perfect Pairings: Wine & Dishes</p>
                             <img
-                            src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain2.webp"
+                            src="img/foods/explore/wine.jpg"
                             class="w-100 shadow-1-strong rounded"
                             alt="Mountains in the Clouds"
                             />
                         </div>
                     </div>
-
                     <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
                         <div id="overlay">
+                            <p>Seasonal Ingredients for Every Dish</p>
                             <img
-                            src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
+                            src="img/foods/explore/seasonal.jpg"
                             class="w-100 shadow-1-strong rounded"
                             alt="Boat on Calm Water"
                             />
                         </div>
                         <br>
                         <div id="overlay">
+                            <p>Quick & Easy Weeknight Dinners</p>
                             <img
-                            src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(18).webp"
+                            src="img/foods/explore/quick.jpg"
                             class="w-100 shadow-1-strong rounded"
                             alt="Waves at Sea"
                             />
                         </div>
                     </div>
-                </div>             
+                </div>
+                <footer class="bg-body-tertiary text-center w-100">
+                    <!-- Grid container -->
+                    <div class="container p-4 pb-0">
+                        <!-- Section: Social media -->
+                        <section class="mb-4">
+                        <!-- Facebook -->
+                        <a
+                        data-mdb-ripple-init
+                            class="btn text-white btn-floating m-1"
+                            style="background-color: #3b5998;"
+                            href="#!"
+                            role="button"
+                            ><i class="bi bi-facebook"></i
+                        ></a>
+                    
+                        <!-- Twitter -->
+                        <a
+                            data-mdb-ripple-init
+                            class="btn text-white btn-floating m-1"
+                            style="background-color: #222222;"
+                            href="#!"
+                            role="button"
+                            ><i class="bi bi-twitter-x"></i
+                        ></a>
+                    
+                        <!-- Google -->
+                        <a
+                            data-mdb-ripple-init
+                            class="btn text-white btn-floating m-1"
+                            style="background-color: #dd4b39;"
+                            href="#!"
+                            role="button"
+                            ><i class="bi bi-google"></i
+                        ></a>
+                    
+                        <!-- Instagram -->
+                        <a
+                            data-mdb-ripple-init
+                            class="btn text-white btn-floating m-1"
+                            style="background-color: #ac2bac;"
+                            href="#!"
+                            role="button"
+                            ><i class="bi bi-instagram"></i
+                        ></a>
+                    
+                        <!-- Linkedin -->
+                        <a
+                            data-mdb-ripple-init
+                            class="btn text-white btn-floating m-1"
+                            style="background-color: #0082ca;"
+                            href="#!"
+                            role="button"
+                            ><i class="bi bi-linkedin"></i
+                        ></a>
+                        <!-- Github -->
+                        <a
+                            data-mdb-ripple-init
+                            class="btn text-white btn-floating m-1"
+                            style="background-color: #444444;"
+                            href="#!"
+                            role="button"
+                            ><i class="bi bi-github"></i
+                        ></a>
+                        </section>
+                        <!-- Section: Social media -->
+                    </div>
+                    <!-- Grid container -->
+                    
+                    <!-- Copyright -->
+                    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+                        © 2025 Copyright:
+                        <a class="text-body" href="https://mdbootstrap.com/">DishMasters.com</a>
+                    </div>
+                    <!-- Copyright -->
+                </footer>             
             </div>
-            <footer class="bg-body-tertiary text-center">
-                <!-- Grid container -->
-                <div class="container p-4 pb-0">
-                    <!-- Section: Social media -->
-                    <section class="mb-4">
-                    <!-- Facebook -->
-                    <a
-                    data-mdb-ripple-init
-                        class="btn text-white btn-floating m-1"
-                        style="background-color: #3b5998;"
-                        href="#!"
-                        role="button"
-                        ><i class="bi bi-facebook"></i
-                    ></a>
-                
-                    <!-- Twitter -->
-                    <a
-                        data-mdb-ripple-init
-                        class="btn text-white btn-floating m-1"
-                        style="background-color: #222222;"
-                        href="#!"
-                        role="button"
-                        ><i class="bi bi-twitter-x"></i
-                    ></a>
-                
-                    <!-- Google -->
-                    <a
-                        data-mdb-ripple-init
-                        class="btn text-white btn-floating m-1"
-                        style="background-color: #dd4b39;"
-                        href="#!"
-                        role="button"
-                        ><i class="bi bi-google"></i
-                    ></a>
-                
-                    <!-- Instagram -->
-                    <a
-                        data-mdb-ripple-init
-                        class="btn text-white btn-floating m-1"
-                        style="background-color: #ac2bac;"
-                        href="#!"
-                        role="button"
-                        ><i class="bi bi-instagram"></i
-                    ></a>
-                
-                    <!-- Linkedin -->
-                    <a
-                        data-mdb-ripple-init
-                        class="btn text-white btn-floating m-1"
-                        style="background-color: #0082ca;"
-                        href="#!"
-                        role="button"
-                        ><i class="bi bi-linkedin"></i
-                    ></a>
-                    <!-- Github -->
-                    <a
-                        data-mdb-ripple-init
-                        class="btn text-white btn-floating m-1"
-                        style="background-color: #444444;"
-                        href="#!"
-                        role="button"
-                        ><i class="bi bi-github"></i
-                    ></a>
-                    </section>
-                    <!-- Section: Social media -->
-                </div>
-                <!-- Grid container -->
-                
-                <!-- Copyright -->
-                <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
-                    © 2025 Copyright:
-                    <a class="text-body" href="https://mdbootstrap.com/">DishMasters.com</a>
-                </div>
-                <!-- Copyright -->
-            </footer>
         </div>
     </div>
 </body>

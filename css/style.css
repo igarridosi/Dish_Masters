@@ -157,6 +157,10 @@ h1 {
 
 #overlay {
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
 }
 
 #overlay::before {
@@ -177,6 +181,8 @@ h1 {
 }
 
 #overlay p{
+    color: #fafbfe;
+    position: absolute;
     z-index: 2;
 }
 
