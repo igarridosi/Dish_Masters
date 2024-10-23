@@ -64,7 +64,6 @@ h1 {
     }
 }
 
-
 #sidebar {
     width: 70px;
     min-width: 70px;
@@ -177,17 +176,46 @@ h1 {
 
 #overlay img {
     position: relative;
-    z-index: 0; /* Place image below the overlay */
+    z-index: 0; 
+    transition: transform 0.2s ease, filter 0.2s ease;
 }
+
+#overlay:hover img {
+transform: scale(0.90); /* Zoom out effect */
+filter: blur(4px); /* Blur effect */
+}
+
 
 #overlay p{
     color: #fafbfe;
     position: absolute;
     z-index: 2;
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Add shadow for text readability */
+    opacity: 0.3;
+    transition: opacity 0.5s ease;
+}
+
+#overlay:hover p {
+    opacity: 1;
 }
 
 /* MOBILE VIEW*/
 #movile-view-menu{
     background: rgb(255,255,255);
     background: linear-gradient(153deg, rgba(255,255,255,1) 0%, rgba(255,189,89,1) 90%); 
+}
+
+
+/*MY FEED PAGE*/
+#overlay #ilustration{
+    max-height: 20vh;
+    padding: 7%;
+}
+
+#newPost a{
+    color: #ffbd59;
+    font-weight: bold;
 }

@@ -41,13 +41,16 @@
                             </li>
                             <li>
                                 <a href="#submenu1" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
-                                    <i class="fs-1 bi-speedometer2"></i> <span class="ms-1  d-sm-inline">Dashboard ▽</span> </a>
+                                    <i class="fs-1 bi bi-person-hearts"></i> <span class="ms-1  d-sm-inline">My feed ▽</span></a>
                                 <ul class="collapse nav flex-column ms-1" id="submenu1" data-bs-parent="#menu">
-                                    <li class="w-100">
-                                        <a href="#" class="nav-link px-0"> <span class="d-sm-inline">Item</span> 1 </a>
+                                    <li>
+                                        <a href="#" class="nav-link px-0"><i class="fs-4 bi bi-bullseye"></i> <span class="d-none d-sm-inline"></span>Dishy Chalenge</a>
                                     </li>
                                     <li>
-                                        <a href="#" class="nav-link px-0"> <span class="d-sm-inline">Item</span> 2 </a>
+                                        <a href="#" class="nav-link px-0"><i class="fs-4 bi bi-camera-reels"></i> <span class="d-none d-sm-inline"></span>Shorts</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="nav-link px-0"><i class="fs-4 bi bi-star"></i> <span class="d-none d-sm-inline"></span>Favorites</a>
                                     </li>
                                 </ul>
                             </li>
@@ -106,28 +109,34 @@
                     <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
                         <li class="nav-item">
                             <a href="#" class="nav-link align-middle px-0">
-                                <i class="fs-4 bi-house"></i> <span class="ms-1 d-none d-sm-inline">Home</span>
+                                <i class="fs-3 bi-house"></i> <span class="ms-1 d-none d-sm-inline">Home</span>
                             </a>
                         </li>
                         <li>
                             <a href="#submenu1" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
-                                <i class="fs-4 bi-speedometer2"></i> <span class="ms-1 d-none d-sm-inline">Dashboard ▽</span> </a>
+                                <i class="fs-3 bi bi-person-hearts"></i> <span class="ms-1 d-none d-sm-inline">My feed ▽</span> </a>
                             <ul class="collapse nav flex-column ms-1" id="submenu1" data-bs-parent="#menu">
-                                <li class="w-100">
-                                    <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Item</span> 1 </a>
+                                <li>
+                                    <a href="myFeed.html" target="_blank" class="nav-link px-0"><i class="fs-5 bi bi-bank"></i> <span class="d-none d-sm-inline">Main Page</span></a>
                                 </li>
                                 <li>
-                                    <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Item</span> 2 </a>
+                                    <a href="#" class="nav-link px-0"><i class="fs-5 bi bi-bullseye"></i> <span class="d-none d-sm-inline">Dishy Chalenge</span></a>
+                                </li>
+                                <li>
+                                    <a href="#" class="nav-link px-0"><i class="fs-5 bi bi-camera-reels"></i> <span class="d-none d-sm-inline">Shorts</span></a>
+                                </li>
+                                <li>
+                                    <a href="#" class="nav-link px-0"><i class="fs-5 bi bi-star"></i> <span class="d-none d-sm-inline">Favorites</span></a>
                                 </li>
                             </ul>
                         </li>
                         <li>
                             <a href="#" class="nav-link px-0 align-middle">
-                                <i class="fs-4 bi-table"></i> <span class="ms-1 d-none d-sm-inline">Orders</span></a>
+                                <i class="fs-3 bi-table"></i> <span class="ms-1 d-none d-sm-inline">Orders</span></a>
                         </li>
                         <li>
                             <a href="#submenu2" data-bs-toggle="collapse" class="nav-link px-0 align-middle ">
-                                <i class="fs-4 bi-bootstrap"></i> <span class="ms-1 d-none d-sm-inline">Bootstrap ▼</span></a>
+                                <i class="fs-3 bi-bootstrap"></i> <span class="ms-1 d-none d-sm-inline">Bootstrap ▼</span></a>
                             <ul class="collapse nav flex-column ms-1" id="submenu2" data-bs-parent="#menu">
                                 <li class="w-100">
                                     <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Item</span> 1</a>
@@ -139,7 +148,7 @@
                         </li>
                         <li>
                             <a href="#submenu3" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
-                                <i class="fs-4 bi-grid"></i> <span class="ms-1 d-none d-sm-inline">Products ▽</span> </a>
+                                <i class="fs-3 bi-grid"></i> <span class="ms-1 d-none d-sm-inline">Products ▽</span> </a>
                             <ul class="collapse nav flex-column ms-1" id="submenu3" data-bs-parent="#menu">
                             <li class="w-100">
                                 <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Product</span> 1</a>
@@ -157,7 +166,7 @@
                         </li>
                         <li>
                             <a href="#" class="nav-link px-0 align-middle">
-                                <i class="fs-4 bi bi-door-open-fill"></i> <span class="ms-1 d-none d-sm-inline">Sign In</span> </a>
+                                <i class="fs-3 bi bi-door-open-fill"></i> <span class="ms-1 d-none d-sm-inline">Sign In</span> </a>
                                 
                         </li>
                     </ul>
@@ -199,39 +208,53 @@
                         <div class="carousel-item active">
                             <div class="d-flex justify-content-between">
                                 <div>
-                                    <img src="img/foods/ramen.jpg" class="d-none d-md-block w-100 rounded-pill" alt="American">
+                                    <img src="img/foods/italy/spageti.jpg" class="d-none d-md-block w-100 rounded-pill" alt="spageti">
                                 </div>
                                 <div>
-                                    <img src="img/flags/japan.png" class="d-block w-100 rounded-pill shadow p-3 mb-5 bg-white" alt="American">
+                                    <img src="img/flags/italy.svg" class="d-block w-100 rounded-pill shadow p-3 mb-5 bg-white" alt="italia">
                                 </div>
                                 <div>
-                                    <img src="img/foods/futomaki.jpg" class="d-none d-md-block w-100 rounded-pill" alt="American">
+                                    <img src="img/foods/italy/macaroni.jpg" class="d-none d-md-block w-100 rounded-pill" alt="macaroni">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="d-flex justify-content-between">
+                                
+                                <div>
+                                    <img src="img/foods/ramen.jpg" class="d-none d-md-block w-100 rounded-pill" alt="ramen">
+                                </div>
+                                <div>
+                                    <img src="img/flags/japan.png" class="d-block w-100 rounded-pill shadow p-3 mb-5 bg-white" alt="japan">
+                                </div>
+                                <div>
+                                    <img src="img/foods/futomaki.jpg" class="d-none d-md-block w-100 rounded-pill" alt="futomaki">
                                 </div>
                             </div>
                         </div>
                         <div class="carousel-item">
                             <div class="d-flex justify-content-between">
                                 <div>
-                                    <img src="img/foods/mexico/nachos.jpg" class="d-none d-md-block w-100 rounded-pill" alt="American">
+                                    <img src="img/foods/mexico/nachos.jpg" class="d-none d-md-block w-100 rounded-pill" alt="nachos">
                                 </div>
                                 <div>
-                                    <img src="img/flags/mexico.png" class="d-block w-100 rounded-pill shadow p-3 mb-5 bg-white" alt="American">
+                                    <img src="img/flags/mexico.png" class="d-block w-100 rounded-pill shadow p-3 mb-5 bg-white" alt="mexico">
                                 </div>
                                 <div>
-                                    <img src="img/foods/mexico/tacos.jpg" class="d-none d-md-block w-100 rounded-pill" alt="American">
+                                    <img src="img/foods/mexico/tacos.jpg" class="d-none d-md-block w-100 rounded-pill" alt="tacos">
                                 </div>
                             </div>
                         </div>
                         <div class="carousel-item">
                             <div class="d-flex justify-content-between">
                                 <div>
-                                    <img src="img/foods/italia/spageti.jpg" class="d-none d-md-block w-100 rounded-pill" alt="American">
+                                    <img src="img/foods/spain/paella.jpg" class="d-none d-md-block w-100 rounded-pill" alt="paella">
                                 </div>
                                 <div>
-                                    <img src="img/flags/italy.svg" class="d-block w-100 rounded-pill shadow p-3 mb-5 bg-white" alt="American">
+                                    <img src="img/flags/spain.svg" class="d-block w-100 rounded-pill shadow p-3 mb-5 bg-white" alt="spain">
                                 </div>
                                 <div>
-                                    <img src="img/foods/italia/macaroni.jpg" class="d-none d-md-block w-100 rounded-pill" alt="American">
+                                    <img src="img/foods/spain/tortilla.jpg" class="d-none d-md-block w-100 rounded-pill" alt="tortilla">
                                 </div>
                             </div>
                         </div>
@@ -299,9 +322,9 @@
                         </div>
                     </div>
                 </div>
-                <footer class="bg-body-tertiary text-center w-100">
+                <footer class="bg-body-secondary text-center w-100 mt-3">
                     <!-- Grid container -->
-                    <div class="container p-4 pb-0">
+                    <div class="container p-4 pb-0 col-8">
                         <!-- Section: Social media -->
                         <section class="mb-4">
                         <!-- Facebook -->
@@ -370,7 +393,7 @@
                     <!-- Copyright -->
                     <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
                         © 2025 Copyright:
-                        <a class="text-body" href="https://mdbootstrap.com/">DishMasters.com</a>
+                        <a class="text-body" href="/">DishMasters.com</a>
                     </div>
                     <!-- Copyright -->
                 </footer>             
