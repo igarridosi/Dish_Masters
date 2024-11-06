@@ -88,4 +88,8 @@ document.addEventListener("DOMContentLoaded", () => {
             alert("Share reel link copied to clipboard!");
         });
     }
+
+    document.getElementById("home-btn").onclick = function(){
+        window.location.href = "../index.html"
+    }
 });
