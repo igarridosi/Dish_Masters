@@ -58,6 +58,19 @@ h1 {
     font-weight: bold;
 }
 
+#main-heading h1 a{
+    text-decoration: none;
+    color: #222222;
+} 
+
+#main-heading i{
+    color: white;
+} 
+
+#main-heading h1 a:hover{
+    color: white;
+}
+
 @media (min-width: 768px) {
     #main-heading h1 {
         font-size: 3rem;
