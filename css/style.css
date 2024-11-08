@@ -8,6 +8,33 @@
     src: url(../fonts/Varela_Round/VarelaRound-Regular.ttf);
 }
 
+.heading_font{
+    font-family: LibreFranklin;
+}
+
+.recepie-name-link{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 5%;
+    font-size: 1.2rem;
+    text-align: center;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.recepie-name-link:hover{
+    background-color: #ffbd59;
+    transform: rotate(-2deg);
+}
+
+.recepie-name-link i{
+    color: #ffbd59;
+    margin-right: 2px;
+}
+
+.recepie-name-link:hover i{
+    color: white;
+}
+
 body{
     font-family: Varela;
 }
