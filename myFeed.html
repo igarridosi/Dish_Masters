@@ -16,7 +16,7 @@
 <body>
     <div class="container fluid p-4">
         <div class="container mt-5 mb-5 d-flex flex-column justify-content-center align-items-center" id="main-heading">
-            <h1 class="h5 h1-md"><a href="index.html">DISH MASTERS</a><i>FEED</i></h1>
+            <h1 class="h5 h1-md"><a href="index.html">DISH MASTERS </a><i>FEED</i></h1>
         </div>
         <div class="row mt-5">
             <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
@@ -24,7 +24,7 @@
                     <div id="feed-overlay">
                         <p class="h1">Dishy Challenge</p>
                         <img
-                        src="img/ilustrations/challenge.svg"
+                        src="img/ilustrations/chef.svg"
                         class="w-100 shadow-1-strong rounded"
                         alt="Waves at Sea"
                         id="ilustration"
@@ -35,9 +35,9 @@
             <div class="col-lg-4 mb-4 mb-lg-0" >
                 <a href="shorts.html">
                     <div id="feed-overlay">
-                        <p class="h1">Shorts</p>
+                        <p class="h1">Taste Trends</p>
                         <img
-                        src="img/ilustrations/videos.svg"
+                        src="img/ilustrations/cooking.svg"
                         class="w-100 shadow-1-strong rounded"
                         alt="Waves at Sea"
                         id="ilustration"
@@ -48,9 +48,9 @@
             <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
                 <a href="">
                     <div id="feed-overlay">
-                        <p class="h1">Taste Talks</p>
+                        <p class="h1">DishCuss</p>
                         <img
-                        src="img/ilustrations/myfavorites.svg"
+                        src="img/ilustrations/discuss.svg"
                         class="w-100 shadow-1-strong rounded"
                         alt="Waves at Sea"
                         id="ilustration"
@@ -60,7 +60,12 @@
                 
             </div>
         </div>
-        <div class="card mt-5">
+    </div>
+</body>
+</html>
+
+<!--
+<div class="card mt-5">
             <div class="border border-left border-right px-0 bg" id="feedContainer">
                 <div class="p-3 border-bottom">
                     <h4 class="d-flex align-items-center mb-0">
@@ -146,6 +151,46 @@
 
             </div>
         </div>
-    </div>
-</body>
-</html>
+
+
+        <script>
+            // JavaScript to handle creating a new post
+            function createPost() {
+            const postContent = document.getElementById('postContent').value;
+            if (postContent.trim() === '') return;
+
+            const postsFeed = document.getElementById('postsFeed');
+            
+            // Create new post element
+            const newPost = document.createElement('div');
+            newPost.classList = 'bg-white p-4 rounded-lg shadow-md';
+
+            newPost.innerHTML = `
+                <div class="flex items-center justify-between">
+                <div class="flex items-center space-x-2">
+                    <img src="https://via.placeholder.com/40" alt="User Avatar" class="w-10 h-10 rounded-full">
+                    <h3 class="text-gray-800 font-semibold">User123</h3>
+                    <span class="text-gray-500 text-sm">• just now</span>
+                </div>
+                </div>
+                <p class="mt-2 text-gray-700">${postContent}</p>
+                <div class="mt-2 flex items-center space-x-4">
+                <button class="flex items-center text-gray-600 hover:text-orange-600">
+                    <span class="material-icons">thumb_up</span>
+                    <span class="ml-1">0</span>
+                </button>
+                <button class="flex items-center text-gray-600 hover:text-orange-600">
+                    <span class="material-icons">comment</span>
+                    <span class="ml-1">0</span>
+                </button>
+                </div>
+            `;
+
+            // Append new post to the feed
+            postsFeed.prepend(newPost);
+            
+            // Clear the input
+            document.getElementById('postContent').value = '';
+            }
+        </script>
+-->
